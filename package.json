@@ -1,0 +1,28 @@
+{
+  "name": "ujapon_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "media",
+    "editor",
+    "fun"
+  ],
+  "author": "Jitul Teron",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.1.2"
+  }
+}
